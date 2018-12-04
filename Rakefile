@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake/testtask'
 require 'bundler'
 require 'bundler/gem_tasks'
-require 'bundler/setup'
+# require 'bundler/setup'
 require 'jasmine'
 
 ENV['JASMINE_CONFIG_PATH'] ||= File.join(Dir.pwd, 'spec', 'assets', 'support', 'jasmine.yml')
